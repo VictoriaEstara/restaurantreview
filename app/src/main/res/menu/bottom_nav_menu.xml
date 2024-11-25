@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_upcoming"
+        android:title="@string/title_upcoming"
+
+        android:background="@color/md_theme_secondaryContainer"
+        android:textColor="@color/md_theme_primary" />
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_finished"
+        android:title="@string/title_finsihed"
+        android:background="@color/md_theme_secondaryContainer"
+        android:textColor="@color/md_theme_primary" />
+    <item
+        android:id="@+id/navigation_favorite"
+        android:icon="@drawable/ic_favorite"
+        android:title="@string/title_favorite"
+        android:background="@color/md_theme_secondaryContainer"
+        android:textColor="@color/md_theme_primary" />
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/title_settings"
+        android:background="@color/md_theme_secondaryContainer"
+        android:textColor="@color/md_theme_primary" />
+</menu>
